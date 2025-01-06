@@ -1,0 +1,17 @@
+# Derleme çıktıları
+*.out
+*.o
+*.vcd
+
+# Testbench çıktıları
+*_tb
+
+# Sistem dosyaları
+.DS_Store
+.vscode/
+*.swp
+*~
+
+# iverilog çıktıları
+a.out
+*.vvp
