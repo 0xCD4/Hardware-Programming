@@ -9,11 +9,14 @@ Bu repository, temel Verilog modüllerinin implementasyonlarını içerir.
 - **Full Adder**: Elde biti ile 3 bitlik toplama yapan tam toplayıcı
 - **Ripple Carry Adder**: 4-bitlik sayıları toplayan kademeli toplayıcı
 
-### 2. Flip Flops
+### 2. Parity
+- **Parity Checker**: Verilen giriş bitlerinin tek/çift paritesini kontrol eden modül
+
+### 3. Flip Flops
 - **T Flip-Flop**: Toggle flip-flop (asenkron ve senkron reset versiyonları)
 - **D Flip-Flop**: Data flip-flop
 
-### 3. ALU (Arithmetic Logic Unit)
+### 4. ALU (Arithmetic Logic Unit)
 - Temel aritmetik ve mantık işlemleri:
   - ADD (Toplama)
   - LESS (Küçüktür karşılaştırması)
@@ -22,11 +25,11 @@ Bu repository, temel Verilog modüllerinin implementasyonlarını içerir.
   - AND (Mantıksal AND)
   - NOT (Mantıksal NOT)
 
-### 4. Encoder/Decoder
+### 5. Encoder/Decoder
 - **4-to-2 Encoder**: 4 bit girişi 2 bite kodlar
 - **2-to-4 Decoder**: 2 bit girişi 4 bite çözer
 
-### 5. Multiplexer (MUX)
+### 6. Multiplexer (MUX)
 - **2:1 MUX**: 2 giriş, 1 çıkış
 - **4:1 MUX**: 4 giriş, 1 çıkış
 - **8:1 MUX**: 8 giriş, 1 çıkış
@@ -53,6 +56,8 @@ verilog/
 │   ├── half_adder.v
 │   ├── full_adder.v
 │   └── ripple_carry_adder.v
+├── parity/
+│   └── parity.v
 ├── flip_flop/
 │   ├── t_flipflop.v
 │   └── d_flipflop.v
